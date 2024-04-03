@@ -3,7 +3,7 @@
 * Here I used Django framework(Python) and sqlite3 database.
 * In the given json file there was a field called "phone". But django default user do not have "phone" field in-built. So, I made a custom user including phone field in it.
 * I created custom password validator called "AllowSimplePasswordValidator" so that it can take simple password of any types and lengths.
-* In given json file there was a white space in name/username like "John Doe". But django username field does not accept white space by default. So, I made a custom udername validator. called "ASCIIUsernameValidator" and attached it with the username field so that it can accept white space in it.
+* In given json file there was a white space in name/username like "John Doe". But django username field does not accept white space by default. So, I made a custom username validator. called "ASCIIUsernameValidator" and attached it with the username field so that it can accept white space in it.
 * I have created models named 'Movie' and 'Rating'. The fields of these models are named to match those of the sample data.
 * I initialized the database with sample data given in json file.
 
