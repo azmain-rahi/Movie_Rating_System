@@ -1,0 +1,161 @@
+[
+    {
+      "model": "accounts.customuser",
+      "pk": 1,
+      "fields": {
+        "username": "John Doe",
+        "phone": "11111111111",
+        "password": "pass1",
+        "email": "john_doe@gmail.com",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "accounts.customuser",
+      "pk": 2,
+      "fields": {
+        "username": "Jane Doe",
+        "phone": "22222222222",
+        "password": "pass2",
+        "email": "jane_doe@gmail.com",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "accounts.customuser",
+      "pk": 3,
+      "fields": {
+        "username": "Mark Doe",
+        "phone": "3333333333",
+        "password": "pass3",
+        "email": "mark_doe@gmail.com",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "accounts.customuser",
+      "pk": 4,
+      "fields": {
+        "username": "Macy Doe",
+        "phone": "4444444444",
+        "password": "pass4",
+        "email": "macy_doe@gmail.com",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "api.movie",
+      "pk": 1,
+      "fields": {
+        "name": "Home Alone",
+        "genre": "Comedy",
+        "rating": "PG",
+        "release_date": "1996-04-01"
+      }
+    },
+    {
+      "model": "api.movie",
+      "pk": 2,
+      "fields": {
+        "name": "The Godfather",
+        "genre": "Crime",
+        "rating": "R",
+        "release_date": "1972-04-01"
+      }
+    },
+    {
+      "model": "api.movie",
+      "pk": 3,
+      "fields": {
+        "name": "Avengers: Endgame",
+        "genre": "Action",
+        "rating": "PG",
+        "release_date": "2019-04-01"
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 1,
+      "fields": {
+        "user_id": 1,
+        "movie_id": 1,
+        "rating": 5.0
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 2,
+      "fields": {
+        "user_id": 1,
+        "movie_id": 2,
+        "rating": 4.0
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 3,
+      "fields": {
+        "user_id": 1,
+        "movie_id": 3,
+        "rating": 3.3
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 4,
+      "fields": {
+        "user_id": 2,
+        "movie_id": 1,
+        "rating": 5.0
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 5,
+      "fields": {
+        "user_id": 2,
+        "movie_id": 3,
+        "rating": 4.5
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 6,
+      "fields": {
+        "user_id": 3,
+        "movie_id": 1,
+        "rating": 1.6
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 7,
+      "fields": {
+        "user_id": 3,
+        "movie_id": 2,
+        "rating": 0.0
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 8,
+      "fields": {
+        "user_id": 3,
+        "movie_id": 3,
+        "rating": 3.4
+      }
+    },
+    {
+      "model": "api.rating",
+      "pk": 9,
+      "fields": {
+        "user_id": 4,
+        "movie_id": 2,
+        "rating": 4.5
+      }
+    }
+  ]
